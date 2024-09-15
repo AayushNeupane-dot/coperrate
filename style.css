@@ -1,0 +1,344 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.logo img {
+    width: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.language-switch button {
+    background-color: transparent;
+    border: 1px solid #000;
+    color: #000;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #000;
+}
+
+.product-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-text h1 span {
+    color: #e74c3c;
+}
+
+.hero-text p {
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.hero-text button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero-text button:hover {
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.experience {
+    background-color: #f5f5f5;
+    color: #000;
+    padding: 50px 20px;
+}
+
+.experience-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-images img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.experience-text {
+    max-width: 50%;
+    padding-left: 20px;
+}
+
+.experience-text h2 {
+    color: #e74c3c;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.experience-text p {
+    margin-bottom: 20px;
+}
+
+.experience-text button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.experience-text button:hover {
+    background-color: #c0392b;
+}
+
+.t-virus {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.t-virus h2 {
+    color: #e74c3c;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.t-virus h3 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.t-virus p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product-buttons button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.product-buttons button:hover {
+    background-color: #c0392b;
+}
+
+.product-showcase {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.product-item {
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-item p {
+    font-size: 16px;
+    margin: 0;
+}
+/* Previous CSS rules remain unchanged */
+
+.laboratory {
+    display: flex;
+    padding: 50px;
+    background-color: #fff;
+    color: #000;
+}
+
+.laboratory-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.laboratory-text {
+    max-width: 50%;
+}
+
+.laboratory-text img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.laboratory-text h2 {
+    font-size: 32px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.laboratory-text p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.laboratory-text button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.laboratory-image img {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.news-vacancies {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+.news-vacancies-header {
+    text-align: center;
+    margin-bottom: 30px;
+    color: black;
+}
+
+.news-vacancies-header h2 {
+    font-size: 36px;
+}
+
+.news-vacancies-header .highlight {
+    color: #e74c3c;
+}
+
+.news-vacancies-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-card {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+    position: relative;
+}
+
+.news-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.news-card p {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.news-card a {
+    font-size: 20px;
+    color: #e74c3c;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    color: #c0392b;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #00aaff;
+}
